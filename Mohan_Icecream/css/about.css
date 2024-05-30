@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('../imgs/about_b.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main-container {
+    padding-top: 15rem;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.center-image {
+    width: 400px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+.text-container {
+    text-align: left;
+    
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: #252525;
+}

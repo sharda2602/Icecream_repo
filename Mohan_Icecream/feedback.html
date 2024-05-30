@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/feedback.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Responsive Icecream Web</title>
+</head>
+<body>
+    
+
+    <!--------------Header start----------------->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#"><img src="../Mohan_Icecream/imgs/mi_logo.png" height="65px" width="95 px" alt=""></a>
+                </div>
+                <nav>
+                    <div class="btn">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="">FEEDBACK</a></li>
+                </nav>
+                <div class="btn">
+                    <i class="fas fa-bars menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--------------Header close----------------->
+
+    <!--------------feedback open----------------->
+    
+    <div class="form-container">
+        <h1 style="padding-top: 5rem;">FEEDBACK FORM</h1>
+        <form id="feedback-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="services">How would you rate our services?</label>
+                <select id="services" name="services">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quality">How would you rate the quality of our ice creams?</label>
+                <select id="quality" name="quality">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <button type="submit" style="margin-bottom: 3rem;">Submit Feedback</button>
+        </form>
+        <div id="thank-you-message" class="thank-you-message">
+            <h2>Thank You!</h2>
+            <p>Your feedback has been submitted successfully.</p>
+        </div>
+    </div>
+
+    <!--------------feedback close----------------->
+
+    <!--------------footer open----------------->
+
+     <section id="footer">
+        <div class="container">
+            <div class="footer_container">
+                <div class="about_us">
+                    <h2><img src="./imgs/mi_logo.png" alt=""></h2>
+                    <p>
+                        "Join us on a Delicious Adventure Where every 
+                        click brings a scoop of happiness - indulge in our 
+                        frozen fantasies online!"
+                    </p>
+                    <div class="img_logo">
+                        <img src="./imgs/facebook_logo.png" alt="">
+                        <img src="./imgs/Insta_logo.png" alt="">
+                    </div>
+
+                </div>
+                
+                <div class="contact_us">
+                    <h2>Contact Us</h2>
+                    <p>Mohan Ice cream</p><br>
+                    <p>Dealing Corner, Jangali Maharaj Rd, 
+                       Shivajinagar, Pune, Maharashtra 411004</p><br>
+                    <p>suryakantmohankhandelwal@gmail.com</p>
+                    <p>Phone: 020 2551 1133</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   
+
+    <footer>
+        <div class="container">
+            <p>
+                Copyright 2023 &copy; Vaishali Restaurant Designed by Sharda Pardeshi</a>
+            </p>
+        </div>
+    </footer>
+    <!--------------footer open----------------->
+
+   
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

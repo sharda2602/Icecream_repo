@@ -1,0 +1,82 @@
+
+
+html, body {
+    height: 100%;
+}
+
+
+.form-container {
+    background: url('../imgs/about_b.png') no-repeat center center/cover;
+    margin-left: 45rem;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-container button {
+    margin-left: 2px;
+    width: 100%;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #fc9ea6;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #fc9ea693;
+}
+
+.thank-you-message {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}

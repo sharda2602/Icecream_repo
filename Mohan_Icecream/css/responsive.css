@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .image-card {
+        width: calc(50% - 20px);
+    }
+    .image-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-card {
+        width: 100%;
+    }
+    .image-card {
+        width: 100%;
+    }
+}

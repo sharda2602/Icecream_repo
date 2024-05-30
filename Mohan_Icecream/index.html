@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Responsive Icecream Web</title>
+</head>
+<body>
+    
+
+    <!--------------Header start----------------->
+    
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#"><img src="../Mohan_Icecream/imgs/mi_logo.png" height="65px" width="70 px" alt=""></a>
+                </div>
+                <nav>
+                    <div class="btn">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                </nav>
+                <div class="btn">
+                    <i class="fas fa-bars menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--------------Header close----------------->
+
+    <!--------------Sliders open----------------->
+    <div id="slide">
+    <div class="carousel">
+        <div class="carousel-slide">
+            <div class="slide" style="background-image: url('./imgs/landing1.png');">
+                <div class="content">
+                    <p style="font-size: 1.3rem; text-align: left;"><b>Welcome to</b></p>
+                    <h2 class="main_heading-1" style="padding-bottom: 2rem; padding-top: 1rem; text-align: left;">MOHAN  ICE CREAM</h2>
+                    <p style="font-size: 1.3rem; padding-bottom: 1rem; text-align: left;">"Step into the coolest corner of the internet with our ice 
+                        cream website! Indulge your sweet tooth and explore a world 
+                        where every flavor is a delightful adventure waiting to be 
+                        tasted. From classic favorites to exotic blends, our virtual 
+                        scoop parlor is a symphony of creamy delights. Dive into a sea 
+                        of flavors, tantalizing toppings, and mouthwatering sundaes 
+                        that will transport you to an ice cream lover's paradise. 
+                        Whether you're craving a comforting cone or a decadent dessert, 
+                        our website is your ultimate destination for all things ice cream. 
+                        So grab a spoon, take a virtual stroll, and let the delicious 
+                        journey begin!"
+                    </p>                    
+                    <button>EXPLORE NOW</button>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./imgs/landing2.jpg');">
+                <div class="content">
+                    <h1 class="normal_heading">"Embrace the sweetness of summer with our mango season ice cream - 
+                        aste of sunshine in every scoop!"</h1>
+                    <p class="normal_heading-1" style="color: #fc9ea6; padding-bottom: 1rem;">Mohan's Mango Season Is Here</p>
+                    <button>EXPLORE NOW</button>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./imgs/landing3.jpg');">
+                <div class="content">
+                    <h1 class="normal_heading" style="padding-bottom: 1rem;">"Experience the timeless tradition of indulgence with our authentic kulfi - 
+                        a taste of culture, a scoop of satisfaction!"</h1>
+                    <p class="normal_heading-1" style="color: #fc9ea6; padding-bottom: 1rem;">Corte's Best Mava Kulfi.</p>
+                    <button>EXPLORE NOW</button>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./imgs/landing4.jpg');">
+                <div class="content">
+                    <h1 class="normal_heading" style="padding-bottom: 1rem;">"Sip, slurp, and savor the creamy goodness of our milkshakes - 
+                        where every sip is a sweet escape!"</h1>
+                    <p class="normal_heading-1" style="padding-bottom: 1rem;">Experience the Sip of Satisfaction.</p>
+                    <button>EXPLORE NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+    </div>
+
+    <!--------------Sliders close----------------->
+
+    <!--------------Visit our store open----------------->
+    <div id="visit">
+    <div class="main-container">
+        <h1 class="main_heading">VISIT OUR STORE</h1>
+        <div class="container">
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="./imgs/i1.png" alt="Image 1" class="circle-image">
+                </div>
+                <h3 style="font-family: cursive; color: #fb8f98; font-size: 1.5rem;">Choco Almond Ice cream</h3>
+            </div>
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="./imgs/i2.png" alt="Image 2" class="circle-image">
+                </div>
+                <h3 style="font-family: cursive; color: #fb8f98; font-size: 1.5rem;">Choco Chip Ice cream</h3>
+            </div>
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="./imgs/i3.png" alt="Image 3" class="circle-image">
+                </div>
+                <h3 style="font-family: cursive; color: #fb8f98; font-size: 1.5rem;">Gulkand Ice cream</h3>
+            </div>
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="./imgs/i4.png" alt="Image 4" class="circle-image">
+                </div>
+                <h3 style="font-family: cursive; color: #fb8f98; font-size: 1.5rem;">Pista Ice cream</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--------------Visit our store close----------------->
+
+    <!--------------menu open----------------->
+    <div id="menu">
+    <div class="main-container">
+        <h1 class="main_heading">OUR BEST SELLER</h1>
+        <div class="gallery">
+            <div class="row">
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m1.png" alt="Image 1" class="gallery-image">
+                    </div>
+                    <h3>Malai Kulfi</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m2.png" alt="Image 2" class="gallery-image">
+                    </div>
+                    <h3>Gulkand Kulfi</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m3.png" alt="Image 3" class="gallery-image">
+                    </div>
+                    <h3>Pista Kulfi</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m4.png" alt="Image 4" class="gallery-image">
+                    </div>
+                    <h3>Pista Ice cream</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m5.png" alt="Image 5" class="gallery-image">
+                    </div>
+                    <h3>Gulkand Ice cream</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m6.png" alt="Image 6" class="gallery-image">
+                    </div>
+                    <h3>Badam Shake</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m7.png" alt="Image 7" class="gallery-image">
+                    </div>
+                    <h3>Black Current Ice cream</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m8.png" alt="Image 8" class="gallery-image">
+                    </div>
+                    <h3>Chocolate Ice cream</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m9.png" alt="Image 9" class="gallery-image">
+                    </div>
+                    <h3>Roasted Almont Ice cream</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m10.png" alt="Image 10" class="gallery-image">
+                    </div>
+                    <h3>Gulkand Shake</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m11.png" alt="Image 11" class="gallery-image">
+                    </div>
+                    <h3>Anjeer Shake</h3>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="./imgs/menu/m12.png" alt="Image 12" class="gallery-image">
+                    </div>
+                    <h3>Mango Ice cream</h3>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="view-all-button"><b>View All</b></button>
+        </div>
+    </div>
+    </div>
+
+    <!--------------menu close----------------->
+
+
+
+    <!--------------footer open----------------->
+
+     <section id="footer">
+        <div class="container">
+            <div class="footer_container">
+                <div class="about_us">
+                    <h2><img src="./imgs/mi_logo.png" alt=""></h2>
+                    <p>
+                        "Join us on a Delicious Adventure Where every 
+                        click brings a scoop of happiness - indulge in our 
+                        frozen fantasies online!"
+                    </p>
+                    <div class="img_logo">
+                        <img src="./imgs/facebook_logo.png" alt="">
+                        <img src="./imgs/Insta_logo.png" alt="">
+                    </div>
+
+                </div>
+                
+                <div class="contact_us">
+                    <h2>Contact Us</h2>
+                    <p>Mohan Ice cream</p><br>
+                    <p>Dealing Corner, Jangali Maharaj Rd, 
+                       Shivajinagar, Pune, Maharashtra 411004</p><br>
+                    <p>suryakantmohankhandelwal@gmail.com</p>
+                    <p>Phone: 020 2551 1133</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   
+
+    <footer>
+        <div class="container">
+            <p>
+                Copyright 2023 &copy; Vaishali Restaurant Designed by Sharda Pardeshi</a>
+            </p>
+        </div>
+    </footer>
+    <!--------------footer open----------------->
+
+   
+
+    <script src="../Mohan_Icecream/js/script.js"></script>
+
+</body>
+</html>
